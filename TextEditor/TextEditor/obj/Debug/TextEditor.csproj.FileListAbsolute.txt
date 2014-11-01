@@ -1,0 +1,8 @@
+E:\Development\Projects\VisualStudioProjects\TextEditor\TextEditor\bin\Debug\TextEditor.exe.config
+E:\Development\Projects\VisualStudioProjects\TextEditor\TextEditor\bin\Debug\TextEditor.exe
+E:\Development\Projects\VisualStudioProjects\TextEditor\TextEditor\bin\Debug\TextEditor.pdb
+E:\Development\Projects\VisualStudioProjects\TextEditor\TextEditor\obj\Debug\TextEditor.Form1.resources
+E:\Development\Projects\VisualStudioProjects\TextEditor\TextEditor\obj\Debug\TextEditor.Properties.Resources.resources
+E:\Development\Projects\VisualStudioProjects\TextEditor\TextEditor\obj\Debug\TextEditor.csproj.GenerateResource.Cache
+E:\Development\Projects\VisualStudioProjects\TextEditor\TextEditor\obj\Debug\TextEditor.exe
+E:\Development\Projects\VisualStudioProjects\TextEditor\TextEditor\obj\Debug\TextEditor.pdb

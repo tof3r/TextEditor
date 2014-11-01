@@ -1,0 +1,4 @@
+E:\Development\Projects\VisualStudioProjects\TextEditor\Plugin3\bin\Debug\Plugin3.dll
+E:\Development\Projects\VisualStudioProjects\TextEditor\Plugin3\bin\Debug\Plugin3.pdb
+E:\Development\Projects\VisualStudioProjects\TextEditor\Plugin3\obj\Debug\Plugin3.dll
+E:\Development\Projects\VisualStudioProjects\TextEditor\Plugin3\obj\Debug\Plugin3.pdb

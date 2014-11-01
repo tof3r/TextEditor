@@ -1,0 +1,4 @@
+E:\Development\Projects\VisualStudioProjects\TextEditor\Plugin5\bin\Debug\Plugin5.dll
+E:\Development\Projects\VisualStudioProjects\TextEditor\Plugin5\bin\Debug\Plugin5.pdb
+E:\Development\Projects\VisualStudioProjects\TextEditor\Plugin5\obj\Debug\Plugin5.dll
+E:\Development\Projects\VisualStudioProjects\TextEditor\Plugin5\obj\Debug\Plugin5.pdb
