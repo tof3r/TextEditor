@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace Plugin4
 {
@@ -11,11 +12,14 @@ namespace Plugin4
     {
         public static string getPluginName()
         {
-            return "methodFromPlugin4";
+            return "ReverseText";
         }
-        public static void  methodFromPlugin4(RichTextBox editor)
+        public static void ReverseText(RichTextBox editor)
         {
-            editor.Text += " text from plugin4";
+            string text = editor.Text;
+            char[] array = text.ToCharArray();
+            Array.Reverse(array);
+            editor.Text = new string(array);
         }
     }
 }

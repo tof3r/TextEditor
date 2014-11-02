@@ -65,6 +65,7 @@ namespace TextEditor
         private void MenuHandler(object sender, EventArgs e)
         {
             ToolStripMenuItem items = (ToolStripMenuItem)sender;
+            string[] pluginInfo = items.Name.ToString().Split(new Char[] { ' ' });
             object result = null;
             bool isInvoked = false;
             foreach (string myFilename in Directory.GetFiles("E:\\Development\\Projects\\VisualStudioProjects\\TextEditor", "*.dll", SearchOption.AllDirectories))
@@ -74,7 +75,6 @@ namespace TextEditor
                 {
                     foreach (MethodInfo method in item.GetMethods())
                     {
-                        string[] pluginInfo = items.Name.ToString().Split(new Char[]{' '});
                         if (method.Name.Equals(pluginInfo[1]) && !isInvoked)
                         {
                             result = method.Invoke(null, new Object[] { editorTV });

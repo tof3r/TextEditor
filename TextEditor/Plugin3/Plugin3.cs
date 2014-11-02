@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace Plugin3
 {
@@ -11,11 +12,11 @@ namespace Plugin3
     {
         public static string getPluginName()
         {
-            return "methodFromPlugin3";
+            return "GreenBackGroundRTB";
         }
-        public static void methodFromPlugin3(RichTextBox editor)
+        public static void GreenBackGroundRTB(RichTextBox editor)
         {
-            editor.Text += " text from plugin3";
+            editor.BackColor = Color.LimeGreen;
         }
     }
 }

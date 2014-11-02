@@ -2,3 +2,4 @@ E:\Development\Projects\VisualStudioProjects\TextEditor\Plugin2\bin\Debug\Plugin
 E:\Development\Projects\VisualStudioProjects\TextEditor\Plugin2\bin\Debug\Plugin2.pdb
 E:\Development\Projects\VisualStudioProjects\TextEditor\Plugin2\obj\Debug\Plugin2.dll
 E:\Development\Projects\VisualStudioProjects\TextEditor\Plugin2\obj\Debug\Plugin2.pdb
+E:\Development\Projects\VisualStudioProjects\TextEditor\Plugin2\obj\Debug\Plugin2.csprojResolveAssemblyReference.cache

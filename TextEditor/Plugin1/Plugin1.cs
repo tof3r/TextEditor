@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace Plugin1
 {
@@ -11,11 +12,11 @@ namespace Plugin1
     {
         public static string getPluginName()
         {
-            return "methodFromPlugin1";
+            return "BoldSEL";
         }
-        public static void methodFromPlugin1(RichTextBox editor)
+        public static void BoldSEL(RichTextBox editor)
         {
-            editor.Text += " text from plugin1";
+            editor.SelectionFont = new Font(editor.Font, FontStyle.Bold);
         }
     }
 }

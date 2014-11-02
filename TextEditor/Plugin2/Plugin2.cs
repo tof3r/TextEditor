@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace Plugin2
 {
@@ -11,11 +12,11 @@ namespace Plugin2
     {
         public static string getPluginName()
         {
-            return "methodFromPlugin2";
+            return "FontSize20SEL";
         }
-        public static void methodFromPlugin2(RichTextBox editor)
+        public static void FontSize20SEL(RichTextBox editor)
         {
-            editor.Text += " text from plugin2";
+            editor.SelectionFont = new Font(editor.Font.OriginalFontName, 20);
         }
     }
 }

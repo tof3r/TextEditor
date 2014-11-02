@@ -11,11 +11,11 @@ namespace Plugin5
     {
         public static string getPluginName()
         {
-            return "methodFromPlugin5";
+            return "MakeTextCAPS";
         }
-        public static void methodFromPlugin5(RichTextBox editor) 
+        public static void MakeTextCAPS(RichTextBox editor) 
         {
-            editor.Text += " text from plugin5";
+            editor.Text = editor.Text.ToUpper();
         }
     }
 }
